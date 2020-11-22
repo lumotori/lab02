@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x, f=0;
+    cin>>x;
+    if (x<0)
+    f=0; else
+    if (x>=0 && (int)x%2==0)
+    f=1; else
+    if (x>=1 && (int)x%2!=0)
+    f=-1;
+    cout<<"f(x)="<<f;
+    return 0;
+}
